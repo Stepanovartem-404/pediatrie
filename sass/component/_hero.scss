@@ -1,0 +1,100 @@
+.hero-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    min-width: 320px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 250px;
+
+    background-image: url(/image/hero-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (min-width: 480px) {
+        width: 100%;
+        background-image: url(
+            /image/hero-mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+        max-width: 1500px;
+        height: 790px;
+    
+        padding-bottom: 430px;
+
+        background-image: url(
+            /image/Hero-desk.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+}
+
+.text__befor-title {
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.75;
+    
+    text-align: center;
+    align-items: center;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+
+    @media screen and(min-width: 768px) {
+        padding-top: 60px;
+    }
+}
+
+.hero__title {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.4;
+    text-align: center;
+
+    @media screen and(min-width: 768px) {
+        font-size: 64px;
+    }
+}
+
+.text__after-title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #606060;
+
+    @media screen and(min-width: 768px) {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
+.hero__button {
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 44px;
+    
+    width: 250px;
+    height: 50px;
+    left: 625px;
+    top: 308px;
+    color: #FFFFFF;
+    background: #323232;
+    cursor: pointer;
+}

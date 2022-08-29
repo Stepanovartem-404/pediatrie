@@ -1,0 +1,95 @@
+.description {
+    min-width: 320px;
+    padding-top: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 1500px;
+        padding-top: 200px;
+    }
+}
+
+.duo {
+    @media screen and (min-width: 1200px) {
+        width: 1500px;
+        display: flex;
+    } 
+}
+
+.description__img {
+margin-bottom: 30px;
+width: 100%;
+
+background-image: url(/image/dock-mob.jpg);
+
+@media screen and(min-width: 768px) {
+
+}
+@media screen and (min-width: 1200px) {
+    width: 670px;
+    height: 700px;
+    background-image: url(/image/dock.jpg);
+}
+    
+}
+
+.description__left {
+
+    @media screen and (min-width: 768px) {
+        padding-left: 130px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        padding-right: 200px;  
+    }
+}
+
+.description__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.2; 
+
+@media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.22;
+}    
+}
+
+.description__title-span {
+    color: #22BAC9;
+}
+.description__text {
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+.description__icon {
+margin-left: 5px;
+margin-right: 20px;
+}
+
+.description__span {
+    font-weight: 600;
+font-size: 14px;
+line-height: 2;
+
+text-transform: uppercase;
+color: #202020;
+}
+
+.description__button {
+display: flex;
+text-align: center;
+align-items: center;
+cursor: pointer;
+
+}
